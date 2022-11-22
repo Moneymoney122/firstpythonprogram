@@ -1,16 +1,18 @@
 #!/usr/bin/env python
 #First python program by Moneymoney122 (@chandler_hacker)
 
-import math, re
+import math, re, os
 
-print ('Hello World')
+print('Hello World')
 
 def print_help():
- print ('\tfirst python program by Moneymoney122 (@chandler_hacker)')
+ print('\tfirst python program by Moneymoney122 (@chandler_hacker)')
 
 yes = ["hello", "bye"]
 
 no = ["ok"]
+
+os.system('date')
 
 print(len(yes))
 
@@ -24,7 +26,7 @@ sus = no
 
 if sus == yes:
 
- print ('sussy')
+ print('sussy')
 
 x = min(5, 10, 25)
 y = max(5, 10, 25)
@@ -33,3 +35,4 @@ print(x)
 print(y) 
 
 #end of program
+
